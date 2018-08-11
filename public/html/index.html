@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
   </head>
 
   <body>
@@ -13,43 +14,55 @@
       <img class='responsive' id='banner' src="/images/banner.png" alt=""> </div>
 
     <ul class="nav nav-pills nav-justified">
-      <li role="presentation" class="active"><a href="#home">Home</a></li>
-      <li role="presentation"><a href="#about">About</a></li>
-      <li role="presentation"><a href="#centering">Scedule Appointment</a></li>
-      <li role="presentation"><a href="#responsive">Contact</a></li>
-      <li role="presentation"><a href="#sticky">Blog</a></li>
+      <!-- <li role="presentation" class="active"><a href="#home">Home</a></li> -->
+      <li role="presentation"><a href="#about" id='aboutButton' onclick="magicSparkles();">About</a></li>
+      <li role="presentation"><a href="/html/calendar.html">Schedule Appointment</a></li>
+      <li role="presentation"><a href="https://www.facebook.com/InspiredHealthCoach">Contact</a></li>
+      <li role="presentation"><a href="/html/blog.html">Blog</a></li>
     </ul>
 
     <!--About-->
     <h3 class="text-center" id="about">
-      <div class="animated-text hidden-text">
-    <ul class='text-center'>
-      <li>A</li>
-      <li>b</li>
-      <li>o</li>
-      <li>u</li>
-      <li>t</li>
-    </ul>
-    </div>
-
+      <div class="animated-text">
+        <ul class='text-center'>
+          <li>A</li>
+          <li>b</li>
+          <li>o</li>
+          <li>u</li>
+          <li>t</li>
+        </ul>
+      </div>
     </h3>
+
     <div class="container-flex responsive">
-          <!-- This column 25% width -->
-       <div class="box col-2">25%</div>
+          <!-- This column 5% width -->
+       <div class="box col-1">Jahnava Alexa</div>
       <!-- This column 25% width -->
-       <div class="box col-1">25%</div>
-    </div>
+       <div class="box col-2">As your Holistic Health Coach, I am your personal advocate for living an energized and passionate life. I will guide you throughout your healing journey. Whatever your concerns are, my job is to help you learn your own truth by discovering which food and lifestyle choices will work best for you and the life you desire.
+
+A true holistic approach to life incorporates things that nourish you including healthy food, honest relationships, a meaningful spiritual practice, a career that inspires you, and physical activity that you enjoy.
+
+The goals of your personalized wellness coaching program are to radically improve your life, resolve concerns specific to you and your body, and to provide you with tools for a lifetime of balance. We will work together to find the right nourishment for your body, mind, and spirit.  This unique approach provides meaningful, lasting results. Conventional dietary theories present you with food restrictions and limitations that are difficult to sustain over time. Such quick fixes do nothing to help you achieve life-long health and happiness, nor do they bring out the body's natural inclination toward balance. Based on your needs, I will gradually introduce new and healthful foods and activities into your lifestyle. As you start to feel better, these habits will have a natural tendency to remain with you, and will crowd out the less healthful ones.
+
+In becoming healthier, other areas of your life such as relationships, career and creativity start to improve. You will naturally begin to crave the foods and activities that make you feel better, and you will feel more motivated to make time in your life for those things that are truly important to you.
+
+Please visit the Nutrition Coaching for more information about the dietary changes recommended to sustain a holistic lifestyle. for more information about the dietary changes recommended to sustain a holistic lifestyle.</div>
+     </div>
 
     <!--2. Horizontal and vertical alignment-->
-    <h3 class="text-center" id="centering">3. Horizontal and vertical alignment</h3>
+    <!-- <h3 class="text-center" id="centering">3. Horizontal and vertical alignment</h3>
     <div class="flex-center-center">
     <div class="box">Lorem ipsum dolor sit amet </div>
-    </div>
+    </div> -->
 
     <!--Sticky Footer-->
-    <h3 class="text-center" id="sticky">5. Sticky Footer</h3>
-    <div class="sticky-container">
-    <div class="sticky-content text-center">Content</div>
+    <h3 class="text-center" id="sticky"></h3>
+
+    <div class="sticky-container" id="j-banner">
+    <div class="sticky-content text-center">
+      <!-- <img src="/images/j-banner.png" alt="Holistic Health!"> -->
+    </div>
+
     <div class="sticky-footer text-center">
       <i class="fab fa-facebook-square"></i>
       <i class="fab fa-instagram"></i>
@@ -58,12 +71,14 @@
       <p class="small-text">
        <i class="far fa-copyright"></i>
         Site Coded & Designed with  <i class="animated pulse infinite fa fa-heart" aria-hidden="true"></i>  by Jahnava Alexa
-    Designed</p>
+      </p>
     </div>
     </div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js" charset="utf-8"></script>
 <script src="/js/app.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js" charset="utf-8"></script>
+
+
   </body>
 </html>

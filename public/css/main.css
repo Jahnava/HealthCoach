@@ -13,7 +13,7 @@ h1, .nav-pills>li>a {
 
 @media (max-width: 1000px) {
   h1, .nav-pills>li>a {
-    font-size: 200%;
+    font-size: 20%;
     text-transform: uppercase;
     font-weight: bold;
 border: 1px solid white;
@@ -76,7 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', end
 /*about */
 .container-order > .box{
   border: 1rem dashed #E76F51;
-  font-size: 4rem;
+  font-size: 10px;
   font-weight: bold;
 }
 .blue{
@@ -102,21 +102,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', end
 .flex-center-center > div{
   width: 33%;
   font-weight: bold;
-  font-size: 5rem;
-text-transform: uppercase;
-  color: #264653;
+  font-size: 20px;
+/* text-transform: uppercase; */
+  color: white;
 }
 
 /*responsive grig*/
 .responsive > .box {
   font-weight: bold;
-  font-size: 5rem;
-  text-transform: uppercase;
-  color: #264653;
+  font-size: 20px;;
+  /* text-transform: uppercase; */
+  color: white;
 border: 1rem solid #E9C46A;
 }
 .col-1{
 	flex: 1;
+  background-image: url('/images/jah-pic.jpg');
+ background-size: contain;
+ background-repeat: no-repeat;
+ /* height: 420px; */
 }
 
 .col-2{
@@ -137,14 +141,13 @@ border: 1rem solid #E9C46A;
 .sticky-container{
   display:flex;
   flex-direction:column;
-  height: 90vh;
-  with: 100%;
-  background: red;
+  height: 30%;
+  width: 100%;
 }
 .sticky-content{
   flex: 1 0 auto;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 20px;
   text-transform: uppercase;
   color: blue;
   border: 1rem dashed #E76F51;
@@ -152,7 +155,7 @@ border: 1rem solid #E9C46A;
 .sticky-footer{
   flex: 0 0 auto;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 20px;
   text-transform: uppercase;
   color: silver;
 background:blue;
