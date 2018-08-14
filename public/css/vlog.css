@@ -1,0 +1,4 @@
+/* CSS used here will be applied after bootstrap.css */
+img, .embed-responsive {
+  margin-bottom: 30px;
+  }
