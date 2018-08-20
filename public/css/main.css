@@ -4,6 +4,13 @@ html,body{
     background-color: white;
 }
 
+.orange-background {
+  background-image: url('/images/fruit.jpeg');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+
 /* nav & title */
 h1, .nav-pills>li>a {
   font-size: 20px;
@@ -64,18 +71,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', end
   flex-direction: row;
   align-items: stretch;
   width: 100%;
-  background: yellow;
+  background: white;
   justify-content: space-around;
   padding: 2rem;
   background-image: url('/images/veggies.jpeg');
-  background-repeat: no-repeat;
-  background-size: auto;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
+
+
+
 .box {
   width:25%;
   background:black;
   padding: 1rem;
 }
+
 
 /*about */
 .container-order > .box{
@@ -127,6 +138,15 @@ border: 2px solid black;
  background-size: cover;
  background-repeat: no-repeat;
  padding: 15%;
+ /* height: 420px; */
+}
+
+.jah-pic2{
+	/* flex: 1; */
+  background-image: url('/images/jah-pic3.jpeg');
+ background-size: contain;
+ background-repeat: no-repeat;
+ /* padding: 15%; */
  /* height: 420px; */
 }
 
@@ -236,6 +256,14 @@ background:blue;
    color: black;
     opacity: 1;
     transition: all 2.5s ease 0s;
+    font-family: 'Rye', cursive;
+  }
+ .animated-text{
+    /* display: inline-block; */
+    font-size: 45px;
+   color: black;
+    opacity: 1;
+    /* transition: all 2.5s ease 0s; */
     font-family: 'Rye', cursive;
   }
 .animated-text ul li:first-child {
