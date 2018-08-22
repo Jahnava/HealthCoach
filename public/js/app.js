@@ -7,6 +7,6 @@ function magicSparkles(){
 
   setTimeout(function () {
     $(".animated-text").removeClass("hidden-text");
-  }, 500);
+  }, 600);
 
 }
