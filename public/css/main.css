@@ -38,7 +38,7 @@ border: 1px solid white;
 
 h3 {
   color:white;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .nav-pills>li{
   /* background:#E76F51; */
@@ -81,9 +81,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', end
 
 
 
-.box {
+.jah-bio {
   width:25%;
   background:black;
+  padding: 1rem;
+}
+
+.box {
+  width:25%;
+  padding: 1rem;
+}
+
+.contact-box {
+  width:25%;
   padding: 1rem;
 }
 
@@ -135,6 +145,14 @@ border: 2px solid black;
 #jah-pic{
 	/* flex: 1; */
   background-image: url('/images/jah-pic.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 15%;
+ /* height: 420px; */
+}
+#contact-pic{
+	/* flex: 1; */
+  background-image: url('/images/contact-pg.jpeg');
  background-size: cover;
  background-repeat: no-repeat;
  padding: 15%;
