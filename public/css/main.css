@@ -11,6 +11,7 @@ html,body{
 }
 
 
+
 /* nav & title */
 h1, .nav-pills>li>a {
   font-size: 20px;
@@ -218,16 +219,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', end
   font-weight: bold;
   font-size: 15px;
   text-transform: uppercase;
-  padding-top: 3%;
+  padding-top: 1%;
   padding-bottom: 100%;
-  color: white;
+  color: magenta;
 background:black;
 background: #8f0222; /* Old browsers */
 background: -moz-linear-gradient(top, #8f0222 42%, #6d0019 78%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #8f0222 42%,#6d0019 78%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #8f0222 42%,#6d0019 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+background-image: url('/images/contact-background.jpeg');
+background-size: cover
 }
+
 
 #header-pic {
   background-image: url('/images/header-background.jpeg');
