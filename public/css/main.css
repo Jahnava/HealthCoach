@@ -85,6 +85,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', end
   padding: 1rem;
 }
 
+@media (max-midth: 1000){
+.jah-bio p {
+  width:25%;
+  background:black;
+  padding: 1rem;
+    font-size: 100px;
+}
+}
+@media (min-width: 50) and (max-width: 1000){
+.jah-bio p {
+  width:25%;
+  background:black;
+  padding: 1rem;
+  font-size: 100px;
+  }
+}
+
+
 .box {
   width:25%;
   padding: 1rem;
