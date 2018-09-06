@@ -5,7 +5,7 @@ html,body{
 }
 
 .orange-background {
-  background-color: tan;
+  background-color: #e8d9c5;
   /* background-image: url('/images/fruit.jpeg'); */
   background-size: cover;
   /* background-repeat: no-repeat; */
@@ -163,7 +163,7 @@ border: 2px solid black;
 }
 
 #jah-pic{
-	flex: 1;
+	/* flex: 1; */
   background-image: url('/images/jah-pic.jpg');
  background-size: cover;
  background-repeat: no-repeat;
