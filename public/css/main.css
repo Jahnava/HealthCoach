@@ -5,7 +5,7 @@ html,body{
 }
 
 .orange-background {
-  background-color: #e8d9c5;
+  background-color: lightgrey;
   /* background-image: url('/images/fruit.jpeg'); */
   background-size: cover;
   /* background-repeat: no-repeat; */
