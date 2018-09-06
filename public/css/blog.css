@@ -13,4 +13,7 @@ iframe {
   padding:0;
   overflow: hidden;
   cursor:url("/images/mousecursor.png"), default;
+  border:2px solid #666;
+  border-radius:11px;
+  padding:20px;">
 }
