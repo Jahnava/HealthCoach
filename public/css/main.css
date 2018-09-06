@@ -5,7 +5,8 @@ html,body{
 }
 
 .orange-background {
-  background-image: url('/images/fruit.jpeg');
+  background-color: tan;
+  /* background-image: url('/images/fruit.jpeg'); */
   background-size: cover;
   /* background-repeat: no-repeat; */
 }
