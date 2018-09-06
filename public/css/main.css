@@ -281,14 +281,41 @@ background-size: cover
     max-width:100%;
 }
 
+@media (max-width: 1000px){
+#header-pic {
+  background-image: url('/images/mobile-background.jpeg');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height:100%;
+    max-width:100%;
+  }
+}
+
+@media (min-width: 50px) and (max-width: 1000px){
+#header-pic {
+  background-image: url('/images/mobile-background.jpeg');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height:100%;
+    max-width:100%;
+  }
+}
+
  #banner {
   border-radius: 55px;
   -webkit-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   -moz-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   border: 1px solid black;
-  height: 100%;
-  width: 70%
+  min-height: 90%;
+  width: 70%;
+
 }
 
 @media (max-width: 1000px) {
@@ -297,9 +324,9 @@ background-size: cover
   -webkit-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   -moz-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
-    border: 1px solid black;
-  height: 40%;
-  width: 90%
+  border: 1px solid black;
+  min-height: 100%;
+  width: 100%;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
@@ -308,9 +335,10 @@ background-size: cover
     -webkit-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
     -moz-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
     box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
-      border: 1px solid black;
-    height: 40%;
-    width: 90%
+    border: 1px solid black;
+    min-height: 50%;
+    width: 100%;
+    overflow: hidden;
   }
 }
 

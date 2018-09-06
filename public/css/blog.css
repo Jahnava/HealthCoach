@@ -5,6 +5,7 @@ html {
   cursor:url("/images/mousecursor.png"), default;
   height:100%;
   width: 100%;
+  overflow: contain;
 }
 
 iframe {
