@@ -163,16 +163,24 @@ border: 2px solid black;
 }
 
 #jah-pic{
-	/* flex: 1; */
   background-image: url('/images/jah-pic.jpg');
  background-size: cover;
  background-repeat: no-repeat;
  padding: 15%;
-
  /* height: 420px; */
 }
+
+@media (min-width: 50px) and (max-width:1000px){
+	#jah-pic{
+    background-image: url('/images/jah-pic.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 15%;
+   padding-right: 30%;
+	}
+}
+
 #contact-pic{
-	/* flex: 1; */
   background-image: url('/images/contact-pg.jpeg');
  background-size: cover;
  background-repeat: no-repeat;
