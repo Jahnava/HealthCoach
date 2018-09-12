@@ -20,6 +20,13 @@ iframe {
 }
 
 
-body{
-min-width: 135%;  /*magical scotty fix*/
+@media (max-width: 1000px) {
+  body {
+  min-width: 135%;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  body {
+  min-width: 135%;
+  }
 }
