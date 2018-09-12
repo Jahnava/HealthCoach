@@ -8,6 +8,7 @@ html {
   overflow: contain;
 }
 
+
 iframe {
   margin:0;
   padding:0;
@@ -16,4 +17,9 @@ iframe {
   border:2px solid #666;
   border-radius:11px;
   padding:20px;">
+}
+
+
+body{
+min-width: 135%;  /*magical scotty fix*/
 }
